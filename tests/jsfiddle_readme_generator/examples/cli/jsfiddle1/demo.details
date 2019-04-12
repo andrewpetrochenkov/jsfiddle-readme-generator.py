@@ -1,0 +1,9 @@
+---
+ name: Name of the Demo
+ description: Some description, please keep it in one line
+ authors:
+   - John Doe
+   - Jan Wisniewski
+ resources:
+   - http://some.url.com/some/file.js
+   - http://other.url.com/other_filename.css
