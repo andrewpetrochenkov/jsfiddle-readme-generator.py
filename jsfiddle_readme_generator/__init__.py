@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+import inspect
 import jsfiddle_github
 import markdown_table
 import os
@@ -35,6 +36,9 @@ class Readme:
         description = self.yaml.get("description", "").strip()
         if len(description) > 1:
             matrix.append(['description', description])
+        print("markdown_table.__dict__ = %s" % markdown_table.__dict__)
+        lines = inspect.getsource(markdown_table)
+        print(lines)
         return markdown_table.render(["key", "value"], matrix)
 
     def render(self):
