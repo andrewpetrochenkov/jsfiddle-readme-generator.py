@@ -37,7 +37,7 @@ Linux|fast|`find . -name "demo.html" -print0 \| xargs -d '\n' python -m jsfiddle
 macOS|fast|`find . -name "demo.html" -print0 \| xargs -0 python -m jsfiddle_readme_generator`
 
 #### Related projects
-+   [`jsfiddle-build.py` - build `build.html` file from jsfiddle files](https://pypi.org/project/jsfiddle-build/)
++   [`jsfiddle-build.py` - build `build.html` from jsfiddle files](https://pypi.org/project/jsfiddle-build/)
 +   [`jsfiddle-factory.py` - jsfiddles mass production](https://pypi.org/project/jsfiddle-build/)
 +   [`jsfiddle-generator.py` - jsfiddle files generator](https://pypi.org/project/jsfiddle-generator/)
 +   [`jsfiddle-github.py` - jsfiddle github integration helper](https://pypi.org/project/jsfiddle-github/)
