@@ -1,13 +1,13 @@
-#!/usr/bin/env python
+__all__ = ['Readme']
+
+
 import inspect
 import jsfiddle_github
 import markdown_table
 import os
-import public
 import yaml
 
 
-@public.add
 class Readme:
     """README.md class. methods: `render`, `save(path)`"""
 
